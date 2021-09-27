@@ -1,0 +1,210 @@
+.img-sz{
+    width: 100%;
+}
+
+@media only screen and (min-width: 375px){
+    .img-sz{
+        width: 100%;
+    }
+
+    .ag-td-style-value{
+        font-size: 0.7rem;
+    }
+
+    .ag-td-style-text{
+        font-size: 0.4rem;
+    }
+
+    /*Classificacoes*/
+    .cl-td-style-value{
+        font-size: 0.7rem;
+    }
+
+    .cl-td-style-text {
+        font-size: 0.4rem;
+    }
+
+
+    /* Ficha Individual */
+    .fi-td-text  {
+        font-size: 0.7rem;
+    }
+
+    .fi-td-value  {
+
+        font-size: 0.7rem;
+
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .img-sz{
+        width: 100%;
+    }
+
+    .ag-td-style-value{
+        font-size: 1.2rem;
+    }
+
+    .ag-td-style-text{
+        font-size: 0.7rem;
+    }
+
+    /*Classificacoes*/
+    .cl-td-style-value{
+        font-size: 1.2rem;
+    }
+
+    .cl-td-style-text {
+        font-size: 0.7rem;
+    }
+
+
+    /* Ficha Individual */
+    .fi-td-text  {
+        font-size: 1rem;
+    }
+
+    .fi-td-value  {
+
+        font-size: 1rem;
+
+    }
+
+}
+
+.dt-body-nowrap {
+    white-space: nowrap;
+}
+
+
+.center-content{
+    display: flex !important;
+    justify-content: center;
+    margin: 0 !important;
+    width:100%;
+}
+
+.vert-center{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+.halfHeight{
+    height: 46%
+}
+
+.reverse-colors {
+    color: white;
+    background: #34495E !important;
+}
+
+.amarelo{
+    background: #F7DC6F  !important;
+}
+
+.lightGrey{
+    background: #e7ebec; !important;
+}
+.darkGrey{
+    color: #e7ebec;
+    background: #212529 !important;
+}
+
+.vermelho{
+    color: #e7ebec;
+    background: #EC7063   !important;
+}
+
+.bt-border{
+    border-bottom: 2px solid black;
+}
+
+.left{
+    border-left: 1px solid #B3B6B7;
+}
+
+.br-tl{
+    border-radius: 5px 0 0 0;
+}
+
+.br-tr {
+    border-radius: 0 5px 0 0;
+}
+
+.br-t{
+    border-radius: 5px 5px 0 0;
+}
+
+
+.br-bl{
+    border-radius: 0 0 0 5px;
+
+}
+
+.br-br{
+    border-radius: 0 0 5px 0;
+
+}
+
+.br-b{
+    border-radius: 0 0 5px 5px;
+}
+
+/* Avaliacao Geral*/
+.ag-td-style-value{
+    border: 0;
+    background: #e7ebec;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ag-td-style-text{
+    border: 0;
+    background: #e7ebec;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Classificacoes*/
+.cl-td-style-value{
+    border: 0;
+    background: #D6DBDF;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.cl-td-style-text {
+    border: 0;
+    background: #e7ebec;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+
+/* Ficha Individual */
+.fi-td-text  {
+    border: 0;
+    background: #e7ebec;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fi-td-value  {
+    border: 0;
+    background: #e7ebec;
+    border-left: 1px solid #B3B6B7;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+

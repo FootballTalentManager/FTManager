@@ -1,0 +1,143 @@
+.skewBtn {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.2s;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+.skewBtn:hover {
+    border: none;
+    color: white;
+    transform: scale(1.1);
+}
+
+.skewBtn:disabled {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    cursor: auto;
+    background: #dddddd;
+    transition: 0.2s;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.skewSelect {
+    width: 70px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+input[type=text]:disabled {
+    background: #dddddd;
+}
+.smallSkewBtn {
+    width: 60px;
+    height: 20px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: 0.2s;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+.smallSkewBtn:hover {
+    border: none;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Buttons */
+.purple {
+    border: 2px solid #512DA8;
+    color: #512DA8;
+}
+.purple:hover {
+    background-color: #512DA8;
+    transition: all 0.3s ease-in-out;
+}
+
+.blackSelect {
+    border: 2px solid #010002;
+    color: #000000;
+}
+
+.black {
+    border: 2px solid #010002;
+    color: #000000;
+}
+.black:hover {
+    background-color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.blue {
+    border: 2px solid #1976D2;
+    color: #1976D2;
+}
+.blue:hover {
+    background-color: #1976D2;
+    transition: all 0.3s ease-in-out;
+}
+
+.lorange {
+    border: 2px solid #FBC02D;
+    color: #FBC02D;
+}
+.lorange:hover {
+    background-color: #FBC02D;
+    transition: all 0.3s ease-in-out;
+}
+
+.brick {
+    border: 2px solid #FF5722;
+    color: #FF5722;
+}
+.brick:hover {
+    background-color: #FF5722;
+    transition: all 0.3s ease-in-out;
+}
+
+.red {
+    border: 2px solid #a82d2d;
+    color: #a82d2d;
+}
+
+
+.red:hover {
+    background-color: #a82d2d;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+   .skewBtn{
+       width: 158px;
+       height: 40px;
+       outline: none;
+       cursor: pointer;
+       background: none;
+       transition: 0.2s;
+       font-size: 12px;
+       border-radius: 5px;
+       margin-right: 0.10rem;
+       margin-left: 0.10rem;
+    }
+}
+
+.color-picker {
+    width: 35px;
+    height: 30px;
+    opacity:100;
+    position:relative !important;
+    left:0 !important;
+    top: 8px !important;
+}

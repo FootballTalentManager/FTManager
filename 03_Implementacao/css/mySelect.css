@@ -1,0 +1,15 @@
+.mySelect {
+    width: auto;
+    height: 40px;
+    opacity:100;
+    position:relative;
+    left:0;
+    top:0;
+    margin-left: 5px;
+    border: 0;
+    background:#F2F3F4;
+}
+
+.mySelect:focus{
+    border: 1px solid black;
+}

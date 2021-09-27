@@ -1,0 +1,54 @@
+.center-info{
+    display: flex !important;
+    justify-content: space-evenly;
+    margin: 0 !important;
+    width:100%;
+}
+
+.c-flex{
+    display:flex;
+}
+
+.competicaoJornada{
+    margin: 0;
+}
+
+.dataHora{
+    margin: 0;
+}
+
+.equipaNome{
+    margin: 0;
+}
+
+.resultado{
+    margin: 0;
+}
+
+.br-tl{
+    border-radius: 5px 0 0 0 !important;
+}
+
+.br-tr {
+    border-radius: 0 5px 0 0 !important;
+}
+
+.br-t{
+    border-radius: 5px 5px 0 0 !important;
+}
+
+
+.br-bl{
+    border-radius: 0 0 0 5px !important;
+
+}
+
+.br-br{
+    border-radius: 0 0 5px 0 !important;
+
+}
+
+.br-b{
+    border-radius: 0 0 5px 5px !important;
+}
+
