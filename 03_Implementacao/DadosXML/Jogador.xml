@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo bilheteIdentidade="" nome="" alcunha="" morada="" nacionalidade="" dataNascimento="" numero="">
+	<fichaIndividual>
+		<registoIndividual dataRegistoFichaIndividual="" peDominante="" posicaoHabitual="" peso="" altura="" imc="" camisola="" calcoes=""/>
+	</fichaIndividual>
+	<competencias>
+		<registoCompetencias passe="1" recepcao="1" finalizacao="1" jogoCabeca="1" cruzamentos="1" marcacao="1" cobrancaDeLivres="1" umParaUmDefensivo="1" umParaUmOfensivo="1" posicionamento="1" tomadaDecisao="1" velocidadeExecucao="1" capacidadeDeTrabalho="1" agressividade="1" autoConfianca="1" inteligenciaEmJogo="1" autoControlo="1" condicaoFisica="1" resistenciaLesoes="1"/>
+	</competencias>
+</curriculo>

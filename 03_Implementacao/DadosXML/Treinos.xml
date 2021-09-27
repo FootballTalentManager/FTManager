@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planoTreino>
+	<!-- Calcular volume com os tempos de cada treino -->
+	<geral microciclos="" mesaciclos="" periodo="" volume=""/>
+
+	<treinos>
+		<treinoEspecifio titulo="" tempo="" nJogadores="">
+			<imagem url=""/>
+			<objetivoEspecifico descricao=""/>
+			<descricaoOrganizacaoMetodologica descricao=""/>
+		</treinoEspecifio>
+	</treinos>
+</planoTreino>

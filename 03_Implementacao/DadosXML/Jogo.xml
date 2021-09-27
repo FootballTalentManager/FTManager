@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jogo idJogo="" local="" equipaCasa="" equipaFora="">
+	<!-- Informação disponivel antes de jogo começar -->
+	<preInformacao>
+		<!-- Equipa de arbitragem -->
+		<equipaArbitragem idArbitroPrincipal="" idArbitroAss1="" idArbitroAss2="" idQuartoArbitro=""/>
+		
+		<!-- Lista de todos os jogadores inscritos para o jogo, a partir desta ficha conseguimos
+			 realizar as estatisticas de convocatórias -->
+		<fichaJogoJogadores>
+			<jogador idJogador=""/>
+		</fichaJogoJogadores>
+		
+		<!-- formacao tatica adotada por cada equipa -->
+		<formacaoTatica formacaoCasa="" formacaoFora=""/>
+	</preInformacao>
+	
+	<diretoInformacao>		
+		<!-- Resultados em ambas as partes -->
+		<resultado>
+			<!-- Resultado primeira parte -->
+			<primeiraParte casa="" fora=""/>
+			
+			<!-- Resultado segunda parte -->
+			<segundaParte casa="" fora=""/>
+			<!-- Resultado Final vem da concatenação dos resultados de ambas as partes -->
+		</resultado>
+		
+		<!-- Eventos ocorridos ao longo do jogo -->
+		<eventos>
+			<!-- Cartoes -->
+			<cartoes>
+				<amarelos>
+					<amarelo idJogador="" tempo=""/>
+				</amarelos>
+				<vermelhos>
+					<vermelho idJogador="" tempo=""/>
+				</vermelhos>
+			</cartoes>
+			
+			<!-- Golos -->
+			<golos>
+				<golo idJogador="" tempo="" autoGolo=""/>
+			</golos>
+			
+			<!-- substituições -->
+			<substituicoes>
+				<substituicao idJogadorEntrou="" idJogadorSaiu="" tempo=""/>
+			</substituicoes>
+		</eventos>
+	</diretoInformacao>
+	
+	<!-- informação que só pode ser preenchida depois do jogo -->
+	<posInformacao>
+		<!-- classificação da prestação geral do jogador no jogo, dado esta ser uma avaliação final, tambem armazena 
+		 o tempo que cada jogador jogou, o nFaltasSofridas, o nFaltasCometidas, o numero de remates -->
+		<registosFinaisJogadores>
+			<registoFinaiJogador idJogador="" classificacao="" tempoJogado="" nFaltasSofridas="" nFaltasCometidas="" nRemates=""/>
+		</registosFinaisJogadores>
+		<registosFinaisArbitros>
+			<registoFinalArbitro idArbitro="" classificacao=""/>
+		</registosFinaisArbitros>
+	</posInformacao>
+</jogo>
